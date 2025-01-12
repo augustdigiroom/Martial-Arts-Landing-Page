@@ -1,0 +1,44 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero-background {
+   background-image: url('./images/fade-background.png');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat; /* Prevents image from repeating */
+   height: 100vh; /* Ensures the element takes the full height of the viewport */
+   width: 100%; /* Ensures the element spans the full width */*/
+   background-color: #f0f0f0;
+}
+
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.open-sans-regular {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.open-sans-bold {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.custom-hero-button {
+  font-size: 25px; /* Adjust the font size */
+  padding:  25 px; /* Adjust the padding */
