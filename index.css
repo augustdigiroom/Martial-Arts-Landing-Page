@@ -5,11 +5,16 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Open Sans", serif;
+}
+
 .hero-background {
    background-image: url('./images/fade-background.png');
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat; /* Prevents image from repeating */
+   position: absolute;
    height: 100vh; /* Ensures the element takes the full height of the viewport */
    width: 100%; /* Ensures the element spans the full width */*/
    background-color: #f0f0f0;
@@ -35,10 +40,14 @@
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  color: #BF0513;
   font-variation-settings:
     "wdth" 100;
+
 }
 
 .custom-hero-button {
   font-size: 25px; /* Adjust the font size */
   padding:  25 px; /* Adjust the padding */
+  color: black;
+
